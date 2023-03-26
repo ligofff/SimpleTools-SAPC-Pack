@@ -1,6 +1,4 @@
-﻿using Ligofff.GameActions;
-
-namespace _1GAME._0_Scr.Other.DelaresActions.Options
+﻿namespace Ligofff.GameActions
 {
     public class Nothing_GameAction<T> : GameActionBase<T> where T : class
     {

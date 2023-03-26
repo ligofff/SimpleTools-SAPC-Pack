@@ -8,7 +8,7 @@ namespace Ligofff.GameActions
     {
         [SerializeReference]
         private GameActionBase<T> _action;
-        
+
         [SerializeField]
         private int _invokeCount = 1;
 

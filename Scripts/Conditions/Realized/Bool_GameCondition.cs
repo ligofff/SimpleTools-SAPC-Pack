@@ -1,6 +1,4 @@
-﻿using System;
-using Ligofff.GameActions.Conditions;
-using UnityEngine;
+﻿using UnityEngine;
 
 namespace Ligofff.GameConditions
 {

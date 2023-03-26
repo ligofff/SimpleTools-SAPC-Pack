@@ -1,4 +1,4 @@
-﻿namespace Ligofff.GameActions.Conditions
+﻿namespace Ligofff.GameConditions
 {
     public enum ConditionBlockMode
     {

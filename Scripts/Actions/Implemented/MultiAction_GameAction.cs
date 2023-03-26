@@ -2,7 +2,7 @@
 using System.Linq;
 using UnityEngine;
 
-namespace Ligofff.GameActions.Options
+namespace Ligofff.GameActions
 {
     public class MultiAction_GameAction<T> : GameActionBase<T> where T : class
     {

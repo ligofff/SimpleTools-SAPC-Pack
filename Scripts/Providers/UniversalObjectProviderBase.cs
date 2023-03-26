@@ -20,7 +20,7 @@ namespace Ligofff.ObjectProviders
                 {
                     return _cached ??= GetInternal();
                 }
-                
+
                 return GetInternal();
             }
         }
@@ -37,7 +37,7 @@ namespace Ligofff.ObjectProviders
 
             if (NeedParameters.Count != 0 && (ActionParameters == null || ActionParameters.Length == 0))
                 throw new Exception($"Action parameters is not assigned for provider {GetType().Name}!");
-            
+
             foreach (var needParameter in NeedParameters)
             {
                 if (!ActionParameters.Any(parms => parms.Item1 == needParameter))
@@ -50,7 +50,7 @@ namespace Ligofff.ObjectProviders
         protected abstract T GetInternal();
 
         [ShowInInspector, DisplayAsString, ShowIf("@NeedParameters.Count > 0")]
-        protected virtual List<string> NeedParameters => new List<string>(){};
+        protected virtual List<string> NeedParameters => new List<string>() { };
 
         [NonSerialized]
         protected (string, object)[] ActionParameters;
