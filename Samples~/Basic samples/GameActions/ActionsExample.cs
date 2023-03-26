@@ -1,7 +1,7 @@
 ﻿using Sirenix.OdinInspector;
 using UnityEngine;
 
-namespace Ligoffff.GameActions.Examples.GameActions
+namespace Ligoffff.GameActions.Samples
 {
     public class ActionsExample : MonoBehaviour
     {

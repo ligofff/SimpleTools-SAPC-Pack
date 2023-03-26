@@ -3,7 +3,7 @@ using Ligofff.GameActions;
 using UnityEngine;
 using Object = UnityEngine.Object;
 
-namespace Ligoffff.GameActions.Examples.GameActions
+namespace Ligoffff.GameActions.Samples
 {
     public abstract class GameObject_GameActionBase : GameActionBase<GameObject> {}
 

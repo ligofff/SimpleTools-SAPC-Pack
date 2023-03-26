@@ -1,8 +1,8 @@
 ﻿using System;
-using Ligofff.GameActions.Conditions;
+using Ligofff.GameConditions;
 using UnityEngine;
 
-namespace Ligoffff.GameActions.Examples
+namespace Ligoffff.GameConditions.Samples
 {
     public abstract class GameObject_GameConditionBase : GameConditionBase<GameObject> { }
 

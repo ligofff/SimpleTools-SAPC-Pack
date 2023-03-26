@@ -14,7 +14,7 @@
         {
             "displayName": "Base samples",
             "description": "Contains basic implementation samples",
-            "path": "./Samples~"
+            "path": "./Samples~/Basic samples"
         }
     ]
 }
