@@ -6,6 +6,8 @@
 Simple Tools SAPC Pack - A small library for Unity with several handy classes that can be conveniently serialized in the inspector.<br />
 *SAPC - Serializable Actions, Providers and Conditions*
 
+> [My Telegram channel](https://t.me/ligofff_blog) if you want more
+
 ## Overview
 
 Writing code for games is not just coding the mechanics of specific game items, objects, or player skills.
