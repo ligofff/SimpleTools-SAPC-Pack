@@ -34,7 +34,7 @@ But if this solution does not suit you, you can always write your own editor to 
 * [**Odin Inspector**](https://odininspector.com/)
 ### Install via GIT URL
 
-Go to ```Package Manager``` -> ```Add package from GIT url...``` -> Enter ```https://github.com/fffogil/SimpleTools-SAPC-Pack.git``` -> Click ```Add```
+Go to ```Package Manager``` -> ```Add package from GIT url...``` -> Enter ```https://github.com/ligofff/SimpleTools-SAPC-Pack.git``` -> Click ```Add```
 
 You will need to have Git installed and available in your system's PATH.
 
