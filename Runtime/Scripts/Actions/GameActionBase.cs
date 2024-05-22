@@ -13,7 +13,7 @@ namespace Ligofff.GameActions
             catch (Exception e)
             {
                 var str =
-                    $"Exception on trying to <color=red>INVOKE</color> Game Action ({GetType().Name})!\n\nInvoked user: {contextObject}\n\nLog: {e}";
+                    $"Exception on trying to <color=red>INVOKE</color> Game Action ({GetType().Name})!\n\nLog:\n{e}\n\nInvoked user: {contextObject}";
                 throw new Exception(str);
             }
         }
@@ -29,7 +29,7 @@ namespace Ligofff.GameActions
             catch (Exception e)
             {
                 var str =
-                    $"Exception on trying to <color=red>CHECK CONDITIONS</color> Game Action ({GetType().Name})!\n\nInvoked user: {contextObject}\n\nLog: {e}";
+                    $"Exception on trying to <color=red>CHECK CONDITIONS</color> Game Action ({GetType().Name})!\n\nLog:\n{e}\n\nInvoked user: {contextObject}";
                 throw new Exception(str);
             }
         }
