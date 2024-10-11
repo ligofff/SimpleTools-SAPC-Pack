@@ -5,7 +5,7 @@ namespace Ligofff.SAPC.MultipleObjectsActions
 {
     public abstract class AsyncMultipleObjectsGameAction<T, T2> : IAsyncMultipleObjectsAction<T, T2> where T : class where T2 : class
     {
-        public async void InvokeAsync(T contextObject1, T2 contextObject2)
+        public async void InvokeAsync_Root(T contextObject1, T2 contextObject2)
         {
             try
             {
@@ -14,7 +14,21 @@ namespace Ligofff.SAPC.MultipleObjectsActions
             catch (Exception e)
             {
                 var str =
-                    $"Exception on trying to <color=red>INVOKE</color> Async Multiple Objects Game Action ({GetType().Name})!\n\nObj1: {contextObject1}\n\nObj2: {contextObject2}\n\nLog: {e}";
+                    $"Exception on trying to <color=red>INVOKE</color> Async Multiple Objects Game Action ROOT ({GetType().Name})!\n\nObj1: {contextObject1}\n\nObj2: {contextObject2}\n\nLog: {e}";
+                throw new Exception(str);
+            }
+        }
+        
+        public async Task InvokeAsync_Task(T contextObject1, T2 contextObject2)
+        {
+            try
+            {
+                await InvokeAsyncInternal(contextObject1, contextObject2);
+            }
+            catch (Exception e)
+            {
+                var str =
+                    $"Exception on trying to <color=red>INVOKE</color> Async Multiple Objects Game Action TASK ({GetType().Name})!\n\nObj1: {contextObject1}\n\nObj2: {contextObject2}\n\nLog: {e}";
                 throw new Exception(str);
             }
         }
